@@ -35,20 +35,47 @@ example : document/window object belong to JS where as process/global belong to 
 For more js : https://www.educba.com/features-of-javascript/
 
 NODEJS:
+--------
 - What is NodeJS?
     - Event Driven
     - Non-Blocking Model 
     - Uses chrome V8 engine
-    - Uses NPM Package EcoSystem.
+    - Uses NPM Package EcoSystem.( Its like maven  )
 
-Node Important Modules 
- - FileSystem Module
+Node Important Syntax. 
+-----------------------
+ - How to import required npm package in node
+    {
+        const var =  require('module') 
+        var.inbuiltFunction(params);
+    }
+ - How to import the required js / resource file
+    {
+        const util = require('relativePath/fileName.ext')
+        util.utilityFunction();
+    }
+ - How to import the required npm dependency 
+    {
+        const validator = require('validator')
+        validator.isEmail("string")
+    }
+
+Why Does Node need NPM ??
+---------------------------
+ - Rather than reinventing the wheel, one can reuse validated and tested packages in NodeJS like emailValidator.
+
+ Important Commands in NPM
+ -------------------------- 
+ - npm init 
+    * It helps to initalize the nodejs project which is going to use the npm package modules. 
+    * It add properties like sript/git/dependencies etc which are know during the      intialization of the project in pacakge.json
+- npm i <pacakgename>@<version> 
+    Alias : npm install <pacakagename>@<version>
+    * It helps to add new depencny in node_modules.
+    * 
 
 
-
- 
-
-
-- 
-
+Imporant Packages : To improve NodeJS development Environment 
+- npm i -g intellisense.
+- mpn i =g nodemon
 

@@ -1,5 +1,7 @@
 const getNotes = function getNotes(){
     return "Your Notes ..."
 }
-
-module.exports = { getNotes }
+function getHelloWorld(){
+    return "hello World"
+}
+module.exports = { getNotes, getHelloWorld }
